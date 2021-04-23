@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>place attachment | Ivo Steimanis</title>
+    <link>https://ivosteimanis.github.io/tags/place-attachment/</link>
+      <atom:link href="https://ivosteimanis.github.io/tags/place-attachment/index.xml" rel="self" type="application/rss+xml" />
+    <description>place attachment</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ivo Steimanis 2021</copyright><lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ivosteimanis.github.io/img/ivo.jpg</url>
+      <title>place attachment</title>
+      <link>https://ivosteimanis.github.io/tags/place-attachment/</link>
+    </image>
+    
+    <item>
+      <title>Climate-related hazards increase risk aversion, place attachment and migration aspiration</title>
+      <link>https://ivosteimanis.github.io/publication/climate_movements/</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://ivosteimanis.github.io/publication/climate_movements/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

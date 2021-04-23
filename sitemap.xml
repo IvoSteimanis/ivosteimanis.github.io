@@ -1,390 +1,251 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://ivosteimanis.github.io/authors/admin/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/publication_types/3/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/authors/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/authors/bjorn-vollan/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/categories/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/climate-change/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/environmental-migration/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/helping-behavior/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/immigration-acceptance/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/authors/karla-henning/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/publication_types/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/publication/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/survey-experiment/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ivosteimanis.github.io/publication/migration_survey_experiment/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/publication_types/3/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/authors/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/authors/bjorn-vollan/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/categories/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/climate-change/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/climate-hazards/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/publication/climate_movements/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/conditional-payments/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/democracy/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/environmental-degradation/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/authors/esther-blanco/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/group-decision-making/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/immigration-attitudes/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/impatience/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/in-group-favoritism/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/international-migration-aspiration/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/authors/karla-henning/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/authors/matthias-mayer/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/motivational-crodwing/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/place-attachment/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/publication/psb_cc/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/prosocial-behavior/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/publication_types/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/publication/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/risk-aversion/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/societal-resilience/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/survey-experiment/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/publication/paying_for_democracy/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/trapped-population/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/vanishing-shadow-of-the-future/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ivosteimanis.github.io/categories/working-paper/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/publication_types/2/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/community-based-natural-resource-management/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/gender/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/leadership/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/local-democracy/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/authors/meed-mbidzo/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/namibia/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/authors/rebecca-hofmann/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/water/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/publication/leadership_norms/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/agroforestry/</loc>
     <lastmod>2020-06-19T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/carbon-sequestration/</loc>
     <lastmod>2020-06-19T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/crowding-out/</loc>
     <lastmod>2020-06-19T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/deforestation/</loc>
     <lastmod>2020-06-19T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/field-experiments/</loc>
     <lastmod>2020-06-19T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/pes/</loc>
     <lastmod>2020-06-19T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/categories/project/</loc>
     <lastmod>2020-06-19T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/project/</loc>
     <lastmod>2020-06-19T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/remote-sensing/</loc>
     <lastmod>2020-06-19T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/authors/tereza-alves/</loc>
     <lastmod>2020-06-19T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/project/impacted/</loc>
     <lastmod>2020-06-19T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/authors/tobias-landmann/</loc>
     <lastmod>2020-06-19T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/authors/tobias-vorlaufer/</loc>
     <lastmod>2020-06-19T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/authors/adam-henry/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/community-based-natural-resource-management/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/displacement/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/publication/climate_movements/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/environmental-hazards/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/authors/esther-blanco/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/field-experiment/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/gender/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/international-migration-intentions/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/leadership/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/local-democracy/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/authors/matthias-mayer/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/authors/meed-mbidzo/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/monetary-incentives/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/publication/paying_for_democracy/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/motivational-crodwing/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/namibia/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/poverty-trap/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/pro-social-behavior/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/publication/psb_cc/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/procedural-fairness/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/authors/rebecca-hofmann/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/tags/water/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/publication/leadership_norms/</loc>
-    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivosteimanis.github.io/publication_types/2/</loc>
-    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/democratization/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/authors/fabian-petutschnig/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/categories/journal-article/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/lab-in-the-field-experiment/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/nepotism/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/tags/procedural-fairness/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ivosteimanis.github.io/publication/leadership/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/authors/sebastian-prediger/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/traditional-authorities/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/post/slr/</loc>
     <lastmod>2019-11-06T12:55:20+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/categories/blog-post/</loc>
     <lastmod>2019-11-06T12:55:20+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/migration/</loc>
     <lastmod>2019-11-06T12:55:20+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/post/</loc>
     <lastmod>2019-11-06T12:55:20+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/sealevel-rise/</loc>
     <lastmod>2019-11-06T12:55:20+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/project/leadership/</loc>
     <lastmod>2019-11-06T12:15:59+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://ivosteimanis.github.io/authors/adam-henry/</loc>
+    <lastmod>2019-11-06T12:06:38+01:00</lastmod>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/adaptation/</loc>
     <lastmod>2019-11-06T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/human-behavior/</loc>
     <lastmod>2019-11-06T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/sea-level-rise/</loc>
     <lastmod>2019-11-06T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/project/sotf/</loc>
     <lastmod>2019-11-06T12:06:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/abm/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/authors/andreas-egelund-christensen/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/tags/discounting/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ivosteimanis.github.io/publication/abm/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
   </url>
-  
 </urlset>

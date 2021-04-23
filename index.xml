@@ -5,7 +5,7 @@
     <link>https://ivosteimanis.github.io/</link>
       <atom:link href="https://ivosteimanis.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ivo Steimanis</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ivo Steimanis 2020</copyright><lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ivo Steimanis 2021</copyright><lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ivosteimanis.github.io/img/ivo.jpg</url>
       <title>Ivo Steimanis</title>
@@ -13,10 +13,42 @@
     </image>
     
     <item>
-      <title>What Determines Public Acceptance of Migrants? Evidence from a Survey Experiment on Self-Inflicted vs. Forced Migration </title>
+      <title>(Climate) Migrants welcome? Evidence from a Survey-Experiment in Austria </title>
       <link>https://ivosteimanis.github.io/publication/migration_survey_experiment/</link>
-      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://ivosteimanis.github.io/publication/migration_survey_experiment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate-related hazards increase risk aversion, place attachment and migration aspiration</title>
+      <link>https://ivosteimanis.github.io/publication/climate_movements/</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://ivosteimanis.github.io/publication/climate_movements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prosocial behavior in response to slow- and fast-onset hazards</title>
+      <link>https://ivosteimanis.github.io/publication/psb_cc/</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://ivosteimanis.github.io/publication/psb_cc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The perils of rewarding paying leaders for appearing democratic – Experimental evidence from Namibia</title>
+      <link>https://ivosteimanis.github.io/publication/paying_for_democracy/</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://ivosteimanis.github.io/publication/paying_for_democracy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When female leaders believe that men make better leaders: Empowerment in community-based water management in rural Namibia</title>
+      <link>https://ivosteimanis.github.io/publication/leadership_norms/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://ivosteimanis.github.io/publication/leadership_norms/</guid>
       <description></description>
     </item>
     
@@ -25,44 +57,14 @@
       <link>https://ivosteimanis.github.io/project/impacted/</link>
       <pubDate>Fri, 19 Jun 2020 12:06:38 +0100</pubDate>
       <guid>https://ivosteimanis.github.io/project/impacted/</guid>
-      <description>&lt;p&gt;Reducing deforestation is one of the most cost-effective climate change mitigation options. Payments for Ecosystem Services (PES) are now increasingly implemented in developing countries as conservation policy tools providing conditional incentives for conservation efforts. So-called asset-building PES are based on the assumption that environmental-friendly practices are not adopted by land-users due to high initial adoption costs. PES provide incentives for a limited time period to overcome this barrier. After a successful adoption of environmental-friendly practices it is assumed that land-users will stick to them after incentives have been removed.
-The proposed project will evaluate several long-term aspects of a terminated asset-building PES project in Mozambique: the Sofala community carbon project (SCCP). Between 2003 and 2013 more than 2500 smallholders were contracted to adopt various agro-forestry measures in return for cash payments. In particular, our project will build on a quasi-experimental design to evaluate the impacts of the SCCP with regard to two major criticisms concerning PES:
-- Environmental effectiveness with respect to deforestation and carbon sequestration.
-- Crowding-out of intrinsic pro-environmental values and social norms of smallholder farmers as well as communities’ capacities for collective action for the sustainable use of natural resources.
-Our project includes three specific work packages. WP1 evaluates the impact of the SCCP on land-use and land-cover changes with respect to deforestation, slash-and-burn agriculture and agroforestry at the landscape level by applying remote sensing-based methods. WP2 will study and estimate below- and above-ground biomass and carbon stocks of different land-use systems in the project region, which allows us to estimate the overall impact of the SCCP on carbon stocks and sequestration. Our study thus provides one of the first long term impact assessments of an asset-building PES using both data from the air and the ground. WP3 will apply a mixed methods approach including surveys, economic experiments and participatory workshops for analysing the impact of the terminated PES on intrinsic pro-environmental conservation values, self-determination, locus-of-control, collective action and social norms at the community level. If PES crowd-out morality, introducing PES schemes may have negative consequences in other spheres of life as well. This might be especially harmful in small rural communities where pro-social behaviour is instrumental for many other non-market exchanges. Our project delivers a unique and encompassing perspective on the effects of monetary incentives on environmental conservation, human behaviour and its underlying motives in the context of a large-scale terminated PES program, which contributes to further developing a context-specific motivation crowding theory.&lt;/p&gt;
+      <description>&lt;p&gt;Reducing deforestation is one of the most cost-effective climate change mitigation options. Payments for Ecosystem Services (PES) are now increasingly implemented in developing countries as conservation policy tools providing conditional incentives for conservation efforts. So-called asset-building PES are based on the assumption that environmental-friendly practices are not adopted by land-users due to high initial adoption costs. PES provide incentives for a limited time period to overcome this barrier. After a successful adoption of environmental-friendly practices it is assumed that land-users will stick to them after incentives have been removed. 
+The proposed project will evaluate several long-term aspects of a terminated asset-building PES project in Mozambique: the Sofala community carbon project (SCCP). Between 2003 and 2013 more than 2500 smallholders were contracted to adopt various agro-forestry measures in return for cash payments. In particular, our project will build on a quasi-experimental design to evaluate the impacts of the SCCP with regard to two major criticisms concerning PES:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Environmental effectiveness with respect to deforestation and carbon sequestration.&lt;/li&gt;
+&lt;li&gt;Crowding-out of intrinsic pro-environmental values and social norms of smallholder farmers as well as communities’ capacities for collective action for the sustainable use of natural resources.
+Our project includes three specific work packages. WP1 evaluates the impact of the SCCP on land-use and land-cover changes with respect to deforestation, slash-and-burn agriculture and agroforestry at the landscape level by applying remote sensing-based methods. WP2 will study and estimate below- and above-ground biomass and carbon stocks of different land-use systems in the project region, which allows us to estimate the overall impact of the SCCP on carbon stocks and sequestration. Our study thus provides one of the first long term impact assessments of an asset-building PES using both data from the air and the ground. WP3 will apply a mixed methods approach including surveys, economic experiments and participatory workshops for analysing the impact of the terminated PES on intrinsic pro-environmental conservation values, self-determination, locus-of-control, collective action and social norms at the community level. If PES crowd-out morality, introducing PES schemes may have negative consequences in other spheres of life as well. This might be especially harmful in small rural communities where pro-social behaviour is instrumental for many other non-market exchanges. Our project delivers a unique and encompassing perspective on the effects of monetary incentives on environmental conservation, human behaviour and its underlying motives in the context of a large-scale terminated PES program, which contributes to further developing a context-specific motivation crowding theory.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Empirical evidence on potential climate-induced movements in the Asia-Pacific Region</title>
-      <link>https://ivosteimanis.github.io/publication/climate_movements/</link>
-      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://ivosteimanis.github.io/publication/climate_movements/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Money can’t buy democratic decision making by local leaders – Experimental evidence from rural Namibia</title>
-      <link>https://ivosteimanis.github.io/publication/paying_for_democracy/</link>
-      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://ivosteimanis.github.io/publication/paying_for_democracy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pro-social behavior and climate change</title>
-      <link>https://ivosteimanis.github.io/publication/psb_cc/</link>
-      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://ivosteimanis.github.io/publication/psb_cc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>When female leaders believe that men make better leaders: Empowerment in community-based water management in rural Namibia</title>
-      <link>https://ivosteimanis.github.io/publication/leadership_norms/</link>
-      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://ivosteimanis.github.io/publication/leadership_norms/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -78,11 +80,8 @@ Our project includes three specific work packages. WP1 evaluates the impact of t
       <link>https://ivosteimanis.github.io/post/slr/</link>
       <pubDate>Wed, 06 Nov 2019 12:55:20 +0100</pubDate>
       <guid>https://ivosteimanis.github.io/post/slr/</guid>
-      <description>
-
-&lt;p&gt;When I first started skimming the internet about Solomon Islands, I got the impression that this state will not exist much longer in the future. So I was very happy to have the opportunity to do research for my PhD there and for my own, in-depth view on these issues!
+      <description>&lt;p&gt;When I first started skimming the internet about Solomon Islands, I got the impression that this state will not exist much longer in the future. So I was very happy to have the opportunity to do research for my PhD there and for my own, in-depth view on these issues!
 In mainstream media rising sea-level has become almost synonymous to climate change and global warming. The media is portraying the image of a modern day Atlantis and headlines (see figure below) are pushing the angle towards vanishing islands due to rising sea-levels.&lt;/p&gt;
-
 
 
 
@@ -112,24 +111,22 @@ In mainstream media rising sea-level has become almost synonymous to climate cha
 
 &lt;/figure&gt;
 
-
 &lt;p&gt;The trigger for most of the above headlines and also a lot of controversy in the scientific community, was the study by Albert et al. from 2016. In this study the authors offer evidence that five Pacific islands were lost to the sea. However, the influence of climate change on these results got exaggerated by the media, as the author himself later admits. In his view, the main take-away message from the study is that &amp;ldquo;&amp;hellip; these observations from the Solomons are a warning of things to come irrespective of if climate change alone caused it or a range of factors&amp;rdquo;. When reading the article by Albert et al. it becomes clear that these five islands were lost because of a combination of multiple factors; rising sea-level, wave exposure and probably also tectonic activity, and not necessarily attributed to climate change alone. Additionally, it seems that the sampling of islands is rather selective and not representative for Solomon Islands. A recent study by Kench et al (2018, see also by Mann &amp;amp; Westphal, 2014) present findings of shoreline change in all 101 islands of Tuvalu over the past four decades using the same methodology as Albert et al., but undoubtedly a more representative sample. They find that three quarters of Tuvalu&amp;rsquo;s islands have increased in size, yielding a net gain in land mass of over 70 hectare, which is nearly three percent of the total land mass of Tuvalu. Their results challenge the widespread perceptions of island loss and highlight the importance for alternative, local level adaptation strategies that embrace heterogeneity of atoll islands and their dynamics.&lt;/p&gt;
-
 &lt;p&gt;The exacerbated representation of scientific findings as done in many news articles, might lead to two important problems. Firstly, trust in science could be undermined when readers find out later that the overstated results were not true. Most likely, they will not blame the journalist who wrote about the issue, but rather the author of the research paper and thereby lose faith in science itself. Scientists, especially in a domain with a lot of uncertainty and importance such as the impacts of climate change, should put more effort into carefully communicating their results to the public.&lt;/p&gt;
-
 &lt;p&gt;The second concern is with the people living on low-lying pacific islands. In times, where internet is available even on the most remote atoll islands, access to online news is widespread. This is one channel people use to get new information about climatic changes in Solomon Islands.  People use these information to form their own expectations and perceptions about climate change. Based on my experience from a low-lying atoll formation, Reef Islands, in Solomon Islands, it seems that many people expect the worst-case scenario of inundation in the near future. They often use a &amp;ldquo;victim&amp;rdquo; narrative to explain their dependence on outsiders, such as NGOs, to help them with the consequences of climate change. This is very problematic, as climate change becomes the scapegoat for nearly every problem related to the environment and leads often to inaction. This causes a self-amplifying cycle, where people are unwilling to make investments or take actions and thereby increase their dependence on outsiders.
 Thus, researchers, journalists and organizations should be careful in the way they craft and communicate messages about climate change. Spreading doomsday scenarios may affect atoll states at a larger scale by increasing dependence on the international community and hindering institutional investments into &amp;ldquo;atoll futures&amp;rdquo;.&lt;/p&gt;
-
 &lt;p&gt;This is not to say that people should not have access to better information about climate change impacts, however it is important to also deliver positive, empowering messages that encourage investments local level adaptation, continued cooperation and responsible stewardship of natural resources. After all, people have been living on these islands for thousands of years. A sea level rise of a few centimeters is unlikely to make all these islands inhabitable in the near future. However, life on these islands will become more difficult. Even more so if communities do not invest in adaption strategies.&lt;/p&gt;
-
 &lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Albert S., Leon J. X., Grinham A. R., Church J. A., Gibbes B. R. &amp;amp; Woodroffe C. D. (2016) Interactions between sea-level rise and wave exposure on reef island dynamics in the Solomon Islands. Environmental Research Letters 11: 054011&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Kench P. S., Ford M. R. &amp;amp; Owen S. D. (2018) Patterns of island change and persistence offer alternate adaptation pathways for atoll nations. Nature Communications 9: 605&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Mann T. &amp;amp; Westphal H. (2014) Assessing Long-Term Changes in the Beach Width of Reef Islands Based on Temporally Fragmented Remote Sensing Data. Remote Sensing 6: 6961-6987&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Albert S., Leon J. X., Grinham A. R., Church J. A., Gibbes B. R. &amp;amp; Woodroffe C. D. (2016) Interactions between sea-level rise and wave exposure on reef island dynamics in the Solomon Islands. Environmental Research Letters 11: 054011&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kench P. S., Ford M. R. &amp;amp; Owen S. D. (2018) Patterns of island change and persistence offer alternate adaptation pathways for atoll nations. Nature Communications 9: 605&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mann T. &amp;amp; Westphal H. (2014) Assessing Long-Term Changes in the Beach Width of Reef Islands Based on Temporally Fragmented Remote Sensing Data. Remote Sensing 6: 6961-6987&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -140,11 +137,8 @@ Thus, researchers, journalists and organizations should be careful in the way th
       <pubDate>Wed, 06 Nov 2019 12:15:59 +0100</pubDate>
       <guid>https://ivosteimanis.github.io/project/leadership/</guid>
       <description>&lt;p&gt;Leadership structures play a key role for successful self-governance of natural resources. Leaders are responsible for drafting and enforcing rules concerning resource management and may strongly influence behavior of other resource users. The quality of leadership is also crucial for the success of decentralization reforms that have been initiated across the world in the last two decades and that are often accompanied with the creation of elected councils on the lowest level of governance responsible for managing public goods and natural resources. Decentralization and democratization reforms may improve local public good provision, but they are also prone to power abuse, nepotism, arbitrary rule enforcement, and other forms of misbehavior of leaders that may undermine trust and cooperation among community members and impede sustainable resource management.&lt;/p&gt;
-
 &lt;p&gt;This study provides experimental evidence from 32 communities in Northern Namibia on the nepotistic use of punishment and procedural fairness of local leaders. In the study area, decentralization reforms have created a coexistence of democratically legitimized leaders responsible for water management and traditional authorities, who inherit their position and have the power to allocate land to resource users. In addition, the project investigates whether leadership strategies and leaders’ personality traits have explanatory power for the real-life performance of leaders and whether local villagers’ perceptions about resource availability have an impact on the election of different types of leaders.  The results of this project contribute to the broad strands of literature on leadership, decentralization policies and common-pool resource management.&lt;/p&gt;
-
 &lt;p&gt;The study was carried out in the Ohangwena region in northern Namibia in summer 2014. In this area, the majority of inhabitants, about 80% of participants, are pastoralists who strongly depend on the availability of grazing and water resources. Access to and the management of these resources is regulated both by traditional and democratically elected leaders. The study employed three local research assistants who are native Oukwwanyama, born and raised in the study area, but currently enrolled at the University of Namibia (UNAM) in Windhoek, the capital city of Namibia. We use a combination of lab-in-the field experiments and surveys to answer our research questions:&lt;/p&gt;
-
 &lt;p&gt;Is &amp;lsquo;nepotism&amp;rsquo; more prevalent under democratically legitimized or traditional forms of leadership?
 Do democratically elected leaders place procedural justice before self-privileges to a larger extent than traditional leaders?&lt;/p&gt;
 </description>
@@ -156,11 +150,8 @@ Do democratically elected leaders place procedural justice before self-privilege
       <pubDate>Wed, 06 Nov 2019 12:06:38 +0100</pubDate>
       <guid>https://ivosteimanis.github.io/project/sotf/</guid>
       <description>&lt;p&gt;Climate change, migration of human populations, and environmental degradation are interrelated in a complex coupled human and natural system. While people have historically abandoned places with harsh conditions, the scale of these flows is expected to increase dramatically as a result of climate change. Environmental migrants are individuals forced to migrate from their home region due to sudden or long-term changes to their local environment compromising their well-being or secure livelihood.&lt;/p&gt;
-
 &lt;p&gt;There is consent among researchers that climate change will result in increasing migration and even the need to resettle entire populations. Many environmental scientists believe that the sea level will rise as a consequence of global warming and the Solomon Islands will be heavily affected by such an occurrence.&lt;/p&gt;
-
 &lt;p&gt;The “Shadow of the future” project examine, how people are likely to change their behavior in light of future climate changes, and build scenarios about potential responses, but also about their exposure to risk. The research project will identify the human reaction to severe impacts of climate change by combining an original comparative research design and the use of economic experiments, survey methods and modelling techniques. With this combination we aim to analyze how risk perception, preferences and behavior of people change with the prospect of being severely affected by climate change and whether and how the preferences translate into choices for short- and medium adaption strategies. Thus we examine the behavioral motives of potential climate refugees.&lt;/p&gt;
-
 &lt;p&gt;Our comparative design will sample people who have been affected by different degrees of sea level rise on the Solomon Islands. We sample people from low lying atolls, which are at the maximum 2m above the sea level and from higher lying islands, as well as people who already migrated from the atolls.&lt;/p&gt;
 </description>
     </item>

@@ -5,44 +5,12 @@
     <link>https://ivosteimanis.github.io/categories/</link>
       <atom:link href="https://ivosteimanis.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ivo Steimanis 2020</copyright><lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ivo Steimanis 2021</copyright><lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ivosteimanis.github.io/img/ivo.jpg</url>
       <title>Categories</title>
       <link>https://ivosteimanis.github.io/categories/</link>
     </image>
-    
-    <item>
-      <title>Working Paper</title>
-      <link>https://ivosteimanis.github.io/categories/working-paper/</link>
-      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://ivosteimanis.github.io/categories/working-paper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Project</title>
-      <link>https://ivosteimanis.github.io/categories/project/</link>
-      <pubDate>Fri, 19 Jun 2020 12:06:38 +0100</pubDate>
-      <guid>https://ivosteimanis.github.io/categories/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Journal Article</title>
-      <link>https://ivosteimanis.github.io/categories/journal-article/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://ivosteimanis.github.io/categories/journal-article/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blog Post</title>
-      <link>https://ivosteimanis.github.io/categories/blog-post/</link>
-      <pubDate>Wed, 06 Nov 2019 12:55:20 +0100</pubDate>
-      <guid>https://ivosteimanis.github.io/categories/blog-post/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
