@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sea-level rise | Ivo Steimanis</title>
+    <link>https://ivosteimanis.github.io/tag/sea-level-rise/</link>
+      <atom:link href="https://ivosteimanis.github.io/tag/sea-level-rise/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sea-level rise</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ivosteimanis.github.io/media/icon_hu20ec63765a9f31cb4a6897ee299a78ea_26261_512x512_fill_lanczos_center_3.png</url>
+      <title>Sea-level rise</title>
+      <link>https://ivosteimanis.github.io/tag/sea-level-rise/</link>
+    </image>
+    
+    <item>
+      <title>Relational values and citizens’ assemblies in the context of adaptation to sea-level rise</title>
+      <link>https://ivosteimanis.github.io/publication/relational_cosust/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://ivosteimanis.github.io/publication/relational_cosust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Shadow of the Future: How climate change affects human behavior</title>
+      <link>https://ivosteimanis.github.io/project/sotf/</link>
+      <pubDate>Wed, 06 Nov 2019 12:06:38 +0100</pubDate>
+      <guid>https://ivosteimanis.github.io/project/sotf/</guid>
+      <description>&lt;p&gt;Climate change, migration of human populations, and environmental degradation are interrelated in a complex coupled human and natural system. While people have historically abandoned places with harsh conditions, the scale of these flows is expected to increase dramatically as a result of climate change. Environmental migrants are individuals forced to migrate from their home region due to sudden or long-term changes to their local environment compromising their well-being or secure livelihood.&lt;/p&gt;
+&lt;p&gt;There is consent among researchers that climate change will result in increasing migration and even the need to resettle entire populations. Many environmental scientists believe that the sea level will rise as a consequence of global warming and the Solomon Islands will be heavily affected by such an occurrence.&lt;/p&gt;
+&lt;p&gt;The “Shadow of the future” project examine, how people are likely to change their behavior in light of future climate changes, and build scenarios about potential responses, but also about their exposure to risk. The research project will identify the human reaction to severe impacts of climate change by combining an original comparative research design and the use of economic experiments, survey methods and modelling techniques. With this combination we aim to analyze how risk perception, preferences and behavior of people change with the prospect of being severely affected by climate change and whether and how the preferences translate into choices for short- and medium adaption strategies. Thus we examine the behavioral motives of potential climate refugees.&lt;/p&gt;
+&lt;p&gt;Our comparative design will sample people who have been affected by different degrees of sea level rise on the Solomon Islands. We sample people from low lying atolls, which are at the maximum 2m above the sea level and from higher lying islands, as well as people who already migrated from the atolls.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Influence of sea level rise on discounting, resource use and migration in small-island communities: an agent-based modelling approach</title>
+      <link>https://ivosteimanis.github.io/publication/abm/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://ivosteimanis.github.io/publication/abm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

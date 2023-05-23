@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>outsiders | Ivo Steimanis</title>
+    <link>https://ivosteimanis.github.io/tag/outsiders/</link>
+      <atom:link href="https://ivosteimanis.github.io/tag/outsiders/index.xml" rel="self" type="application/rss+xml" />
+    <description>outsiders</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 07 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ivosteimanis.github.io/media/icon_hu20ec63765a9f31cb4a6897ee299a78ea_26261_512x512_fill_lanczos_center_3.png</url>
+      <title>outsiders</title>
+      <link>https://ivosteimanis.github.io/tag/outsiders/</link>
+    </image>
+    
+    <item>
+      <title>How can we overcome strategic uncertainty between providers and recipients of benefits in the the context of a shared problem?</title>
+      <link>https://ivosteimanis.github.io/workingpapers/insider_outsider/</link>
+      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://ivosteimanis.github.io/workingpapers/insider_outsider/</guid>
+      <description>&lt;p&gt;Our experimental design is based on a combination of the social dilemmas studied in Blanco et al. (2018) and Gross &amp;amp; Dreu (2019). This design extends our previous studies of the insider-outsider interactions to a new social dilemma. Insiders can now choose between adaptive measures (protecting only themselves) and mitigation measures (protecting the whole group). While the group solution is the socially efficient outcome (as the outsiders do not lose their resources), insiders have incentives to invest into the individual solution to protect themselves from risk of free-riding from other insiders. Outsiders fully rely on insiders to collectively choose mitigation measures to protect them from losing their resources, as they cannot participate in any adaptation or mitigation efforts themselves. But outsiders can send transfer donations to insiders, aiming at compensating them for the efforts to invest into the group solution.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

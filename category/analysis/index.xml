@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analysis | Ivo Steimanis</title>
+    <link>https://ivosteimanis.github.io/category/analysis/</link>
+      <atom:link href="https://ivosteimanis.github.io/category/analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Analysis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 07 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ivosteimanis.github.io/media/icon_hu20ec63765a9f31cb4a6897ee299a78ea_26261_512x512_fill_lanczos_center_3.png</url>
+      <title>Analysis</title>
+      <link>https://ivosteimanis.github.io/category/analysis/</link>
+    </image>
+    
+    <item>
+      <title>Does solidarity change in response to a fast-onset climate hazard? Evidence from Typhoon Haiyan in the Philippines</title>
+      <link>https://ivosteimanis.github.io/workingpapers/yolanda/</link>
+      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://ivosteimanis.github.io/workingpapers/yolanda/</guid>
+      <description>&lt;p&gt;Standard economic theory generally assumes preferences to be stable over time. However, major events in peoples’ lives – such as natural disasters – have the potential to affect peoples’ preferences. Recently, the number of studies examining the temporal stability of individuals’ preferences increased markedly, suggesting increasing doubt about the appropriateness of this standard microeconomic assumption. This doubt is also fostered by Chuang and Schechter’ (2015) extensive literature review on the stability of preferences in general. In this survey, little attention is paid to the stability of individuals’ social preferences, which is the focus of our study. Concentrating on violent conflicts, Bauer et al. (2016) show how social preferences can be altered through such life-changing events. The focus of our study is on examining the impact of natural disasters on solidarity.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

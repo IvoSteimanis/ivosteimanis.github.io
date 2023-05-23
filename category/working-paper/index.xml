@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Working Paper | Ivo Steimanis</title>
+    <link>https://ivosteimanis.github.io/category/working-paper/</link>
+      <atom:link href="https://ivosteimanis.github.io/category/working-paper/index.xml" rel="self" type="application/rss+xml" />
+    <description>Working Paper</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 07 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ivosteimanis.github.io/media/icon_hu20ec63765a9f31cb4a6897ee299a78ea_26261_512x512_fill_lanczos_center_3.png</url>
+      <title>Working Paper</title>
+      <link>https://ivosteimanis.github.io/category/working-paper/</link>
+    </image>
+    
+    <item>
+      <title>Games create lasting impact</title>
+      <link>https://ivosteimanis.github.io/workingpapers/games_intervention/</link>
+      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://ivosteimanis.github.io/workingpapers/games_intervention/</guid>
+      <description>&lt;p&gt;Games as experiential learning interventions receive increasing attention. We conducted experiential learning games with 784 participants around the management of a local public good in 56 randomly selected communities in rural India. We find a significant positive impact on sustainable water management two years after the intervention compared to a control group of 27 randomly selected communities. Additional analysis indicates that achieving impact was more likely if more women were participating in the games. The results highlight the potential of experiential learning as sustainability intervention, especially when including women in the process.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The perils of conditional payments for democracy: Experimental evidence from local leaders in rural Namibia</title>
+      <link>https://ivosteimanis.github.io/workingpapers/paying_for_democracy/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://ivosteimanis.github.io/workingpapers/paying_for_democracy/</guid>
+      <description>&lt;p&gt;Imbursement of international aid conditional on recipients applying democratic principles has been used as a policy tool to spread democratization for a long time. An obstacle that this policy faces is the capacity of recipients to manipulate elections, enabling them to receive aid without giving up power. We report results from an experiment conducted with 64 local leaders in rural Namibia that explore the effect of conditional monetary payments. Conditional payments for democracy are introduced in an environment where each leader selects among three rules for group decision-making: democratic (simple majority), pseudo-democratic (appearing democratic but keeping decision power), and dictatorial (decision by the leader). The group decision is on how to allocate resources between leaders and a set of their villagers (N=384). Leaders make rule choices over three rounds, where we gradually introduce conditional payments for adopting democratic principles, which may include adopting the pseudo-democratic rule). Our results show that without payments, 64 percent of leaders choose the democratic rule. With payments, the number of dictatorial choices decreases at the expense of an increase in pseudo-democratic choices, while the average share of democratic choices is unaffected. These average effects mask substantial heterogeneity depending on leaders’ baseline choices: one-quarter of baseline democrats switches to the pseudo-democratic or even dictatorial rule with conditional payments.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

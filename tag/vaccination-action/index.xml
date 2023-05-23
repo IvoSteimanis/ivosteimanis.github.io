@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vaccination action | Ivo Steimanis</title>
+    <link>https://ivosteimanis.github.io/tag/vaccination-action/</link>
+      <atom:link href="https://ivosteimanis.github.io/tag/vaccination-action/index.xml" rel="self" type="application/rss+xml" />
+    <description>vaccination action</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 28 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ivosteimanis.github.io/media/icon_hu20ec63765a9f31cb4a6897ee299a78ea_26261_512x512_fill_lanczos_center_3.png</url>
+      <title>vaccination action</title>
+      <link>https://ivosteimanis.github.io/tag/vaccination-action/</link>
+    </image>
+    
+    <item>
+      <title>Repeated information of benefits reduce COVID-19 vaccination hesitancy: Experimental evidence from Germany</title>
+      <link>https://ivosteimanis.github.io/publication/covid19_hesitancy/</link>
+      <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://ivosteimanis.github.io/publication/covid19_hesitancy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

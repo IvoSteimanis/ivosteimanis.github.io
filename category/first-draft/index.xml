@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>First Draft | Ivo Steimanis</title>
+    <link>https://ivosteimanis.github.io/category/first-draft/</link>
+      <atom:link href="https://ivosteimanis.github.io/category/first-draft/index.xml" rel="self" type="application/rss+xml" />
+    <description>First Draft</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 07 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ivosteimanis.github.io/media/icon_hu20ec63765a9f31cb4a6897ee299a78ea_26261_512x512_fill_lanczos_center_3.png</url>
+      <title>First Draft</title>
+      <link>https://ivosteimanis.github.io/category/first-draft/</link>
+    </image>
+    
+    <item>
+      <title>Positive conservation incentives and crowding effects: a meta-analysis of lab-in-the-field experiments</title>
+      <link>https://ivosteimanis.github.io/workingpapers/pes_crowding_meta/</link>
+      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://ivosteimanis.github.io/workingpapers/pes_crowding_meta/</guid>
+      <description>&lt;p&gt;Motivational crowding describes the phenomenon that external monetary incentives can undermine non-monetary, intrinsic motivations to engage in the promoted behaviour. While such crowding effects have been observed and discussed for a wide array of human behaviours (Frey and Jegen 2001; Gneezy, Meier, and Rey-Biel 2011), they have emerged as a key criticism of Payment for Ecosystem Services (PES) (Rode, Gómez-Baggethun, and Krause 2015; Akers and Yasué 2019; Ezzine-de-Blas, Corbera, and Lapeyre 2019). PES are economic incentives to land-users conditional on the provisioning of certain ecosystem services (ES), for example water regulation or carbon sequestration, or on pre-defined land-use practices that are expected to maintain or increase targeted ES (Wunder 2015). PES have been implemented worldwide in various contexts (Salzman et al. 2018), and play for example a pivotal role in agri-environmental policies in Europe and the US (Schomers and Matzdorf 2013) and have been considered a key element of REDD+ for tropical forest conservation (Angelsen et al. 2017).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

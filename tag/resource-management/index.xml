@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resource Management | Ivo Steimanis</title>
+    <link>https://ivosteimanis.github.io/tag/resource-management/</link>
+      <atom:link href="https://ivosteimanis.github.io/tag/resource-management/index.xml" rel="self" type="application/rss+xml" />
+    <description>Resource Management</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ivosteimanis.github.io/media/icon_hu20ec63765a9f31cb4a6897ee299a78ea_26261_512x512_fill_lanczos_center_3.png</url>
+      <title>Resource Management</title>
+      <link>https://ivosteimanis.github.io/tag/resource-management/</link>
+    </image>
+    
+    <item>
+      <title>The perils of conditional payments for democracy: Experimental evidence from local leaders in rural Namibia</title>
+      <link>https://ivosteimanis.github.io/workingpapers/paying_for_democracy/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://ivosteimanis.github.io/workingpapers/paying_for_democracy/</guid>
+      <description>&lt;p&gt;Imbursement of international aid conditional on recipients applying democratic principles has been used as a policy tool to spread democratization for a long time. An obstacle that this policy faces is the capacity of recipients to manipulate elections, enabling them to receive aid without giving up power. We report results from an experiment conducted with 64 local leaders in rural Namibia that explore the effect of conditional monetary payments. Conditional payments for democracy are introduced in an environment where each leader selects among three rules for group decision-making: democratic (simple majority), pseudo-democratic (appearing democratic but keeping decision power), and dictatorial (decision by the leader). The group decision is on how to allocate resources between leaders and a set of their villagers (N=384). Leaders make rule choices over three rounds, where we gradually introduce conditional payments for adopting democratic principles, which may include adopting the pseudo-democratic rule). Our results show that without payments, 64 percent of leaders choose the democratic rule. With payments, the number of dictatorial choices decreases at the expense of an increase in pseudo-democratic choices, while the average share of democratic choices is unaffected. These average effects mask substantial heterogeneity depending on leaders’ baseline choices: one-quarter of baseline democrats switches to the pseudo-democratic or even dictatorial rule with conditional payments.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
