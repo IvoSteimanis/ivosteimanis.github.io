@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>contingent valuation | Ivo Steimanis</title>
+    <link>https://ivosteimanis.github.io/tag/contingent-valuation/</link>
+      <atom:link href="https://ivosteimanis.github.io/tag/contingent-valuation/index.xml" rel="self" type="application/rss+xml" />
+    <description>contingent valuation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 26 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ivosteimanis.github.io/media/icon_hu20ec63765a9f31cb4a6897ee299a78ea_26261_512x512_fill_lanczos_center_3.png</url>
+      <title>contingent valuation</title>
+      <link>https://ivosteimanis.github.io/tag/contingent-valuation/</link>
+    </image>
+    
+    <item>
+      <title>Pitfalls of monetizing relational values in the context of climate change adaptation</title>
+      <link>https://ivosteimanis.github.io/publication/relational_values/</link>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://ivosteimanis.github.io/publication/relational_values/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
