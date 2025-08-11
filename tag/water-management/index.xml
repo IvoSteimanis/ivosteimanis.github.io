@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>water management | Ivo Steimanis</title>
+    <title>Water Management | Ivo Steimanis</title>
     <link>https://ivosteimanis.github.io/tag/water-management/</link>
       <atom:link href="https://ivosteimanis.github.io/tag/water-management/index.xml" rel="self" type="application/rss+xml" />
-    <description>water management</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 07 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <description>Water Management</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 31 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ivosteimanis.github.io/media/icon_hu20ec63765a9f31cb4a6897ee299a78ea_26261_512x512_fill_lanczos_center_3.png</url>
-      <title>water management</title>
+      <title>Water Management</title>
       <link>https://ivosteimanis.github.io/tag/water-management/</link>
     </image>
+    
+    <item>
+      <title>Payment for ecosystem services and crowding of conservation behavior: A meta-analysis of lab-in-the-field experiments</title>
+      <link>https://ivosteimanis.github.io/publication/water_women/</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://ivosteimanis.github.io/publication/water_women/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Games create lasting impact</title>
