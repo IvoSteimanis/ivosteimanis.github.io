@@ -1,0 +1,117 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import MethodBadge from '../../components/MethodBadge.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const publications = await getCollection('publications');
+  return publications.map((pub) => ({
+    params: { slug: pub.id.replace(/\.md$/, '') },
+    props: { pub },
+  }));
+}
+
+const { pub } = Astro.props;
+const { Content } = await pub.render();
+
+function highlightAuthor(name: string): string {
+  return name === 'Ivo Steimanis'
+    ? `<strong class="underline">${name}</strong>`
+    : name;
+}
+---
+
+<PageLayout title={pub.data.title}>
+  <article class="py-4">
+    <!-- Back link -->
+    <a href="/publications" class="text-sm text-primary-600 dark:text-primary-400 hover:underline mb-6 inline-block">
+      &larr; All Publications
+    </a>
+
+    <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-3 leading-tight">
+      {pub.data.title}
+    </h1>
+
+    <p class="text-gray-600 dark:text-gray-400 mb-4" set:html={pub.data.authors.map(highlightAuthor).join(', ')} />
+
+    <div class="flex items-center flex-wrap gap-3 mb-6">
+      <span class="font-medium text-primary-600 dark:text-primary-400">
+        {pub.data.publication_short || pub.data.publication}
+      </span>
+      <span class="text-gray-400">({pub.data.date.getFullYear()})</span>
+      {pub.data.methods.map((m) => (
+        <MethodBadge method={m} />
+      ))}
+    </div>
+
+    {pub.data.image && (
+      <img
+        src={pub.data.image}
+        alt=""
+        class="w-full max-h-80 object-cover rounded-xl mb-6"
+        loading="lazy"
+      />
+    )}
+
+    {(pub.data.abstract || pub.data.summary) && (
+      <div class="mb-6">
+        <h2 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Abstract</h2>
+        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+          {pub.data.abstract || pub.data.summary}
+        </p>
+      </div>
+    )}
+
+    <!-- Links -->
+    <div class="flex flex-wrap gap-3 mb-8">
+      {pub.data.doi && (
+        <a
+          href={`https://doi.org/${pub.data.doi}`}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-primary-600 text-white text-sm font-medium hover:bg-primary-700 hover:no-underline transition-colors"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+          </svg>
+          DOI
+        </a>
+      )}
+      {pub.data.url_pdf && (
+        <a
+          href={pub.data.url_pdf}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800 hover:no-underline transition-colors"
+        >
+          PDF
+        </a>
+      )}
+      {pub.data.url_code && (
+        <a
+          href={pub.data.url_code}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800 hover:no-underline transition-colors"
+        >
+          Code
+        </a>
+      )}
+      {pub.data.url_dataset && (
+        <a
+          href={pub.data.url_dataset}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800 hover:no-underline transition-colors"
+        >
+          Data
+        </a>
+      )}
+    </div>
+
+    <!-- Markdown body content if any -->
+    <div class="prose dark:prose-invert max-w-none">
+      <Content />
+    </div>
+  </article>
+</PageLayout>

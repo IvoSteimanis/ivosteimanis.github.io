@@ -1,0 +1,25 @@
+---
+interface Props {
+  method: string;
+}
+
+const { method } = Astro.props;
+
+const colorMap: Record<string, string> = {
+  'Lab-in-field': 'bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300',
+  'Survey experiment': 'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300',
+  'Meta-analysis': 'bg-amber-100 text-amber-800 dark:bg-amber-900/30 dark:text-amber-300',
+  'Online experiment': 'bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-300',
+  'Agent-based model': 'bg-rose-100 text-rose-800 dark:bg-rose-900/30 dark:text-rose-300',
+  'Field experiment': 'bg-teal-100 text-teal-800 dark:bg-teal-900/30 dark:text-teal-300',
+  'Panel data': 'bg-cyan-100 text-cyan-800 dark:bg-cyan-900/30 dark:text-cyan-300',
+  'Review': 'bg-gray-100 text-gray-800 dark:bg-gray-700/30 dark:text-gray-300',
+  'RCT': 'bg-indigo-100 text-indigo-800 dark:bg-indigo-900/30 dark:text-indigo-300',
+};
+
+const colors = colorMap[method] || 'bg-gray-100 text-gray-700 dark:bg-gray-700/30 dark:text-gray-300';
+---
+
+<span class:list={["inline-block px-2 py-0.5 rounded-full text-xs font-medium", colors]}>
+  {method}
+</span>

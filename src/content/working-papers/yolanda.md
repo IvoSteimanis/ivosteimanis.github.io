@@ -1,0 +1,13 @@
+---
+title: "Moderate disaster exposure divides communities; severe exposure does not"
+summary: ""
+authors: ["Ivo Steimanis", "Maximilian Burger", "Bernd Hayo", "Andreas Landmann", "Björn Vollan"]
+tags: ["solidarity", "environmental hazard", "natural experiment", "lab-in-the-field experiment", "Typhoon Haiyan", "Philippines"]
+date: 2022-10-07
+image: "/images/working-papers/yolanda/featured.jpg"
+topic: "Climate & Behavior"
+methods: ["Panel data", "Lab-in-field"]
+status: "Submitted to Nature Sustainability"
+abstract: "Disasters are often assumed to unite communities, yet evidence is mixed. Using panel data from the Philippines spanning a decade (2012, 2016, 2022), we examine how Typhoon Haiyan exposure shaped prosocial behavior measured through incentivized economic games. We find a nonlinear relationship: solidarity erodes in moderately affected communities, falling below both minimally and severely damaged areas where bonds remain strong. This pattern persists nearly a decade post-disaster and is most pronounced among more vulnerable households. A lab-in-the-field experiment demonstrates that solidarity declines when multiple potential helpers exist and need is ambiguous, consistent with diffusion of responsibility. Field data show that moderately exposed communities exhibit the highest ambiguity about legitimate aid needs, and severely affected households in these zones report the lowest aid satisfaction. These findings reveal that uneven disaster impacts can erode social cohesion and highlight the need for transparent, equitable aid distribution to sustain community resilience."
+---
+Disasters are often assumed to unite communities, yet evidence is mixed. Using panel data from the Philippines spanning a decade (2012, 2016, 2022), we examine how Typhoon Haiyan exposure shaped prosocial behavior measured through incentivized economic games. We find a nonlinear relationship: solidarity erodes in moderately affected communities, falling below both minimally and severely damaged areas where bonds remain strong. This pattern persists nearly a decade post-disaster and is most pronounced among more vulnerable households. A lab-in-the-field experiment demonstrates that solidarity declines when multiple potential helpers exist and need is ambiguous, consistent with diffusion of responsibility. Field data show that moderately exposed communities exhibit the highest ambiguity about legitimate aid needs, and severely affected households in these zones report the lowest aid satisfaction. These findings reveal that uneven disaster impacts can erode social cohesion and highlight the need for transparent, equitable aid distribution to sustain community resilience.

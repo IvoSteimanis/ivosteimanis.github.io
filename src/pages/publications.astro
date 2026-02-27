@@ -1,0 +1,36 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import PublicationList from '../components/PublicationList';
+import { getCollection } from 'astro:content';
+
+const allPubs = await getCollection('publications');
+const sorted = allPubs.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const publicationsData = sorted.map((pub) => ({
+  slug: pub.id.replace(/\.md$/, ''),
+  title: pub.data.title,
+  authors: pub.data.authors,
+  date: pub.data.date.toISOString(),
+  doi: pub.data.doi,
+  publication: pub.data.publication,
+  publication_short: pub.data.publication_short,
+  abstract: pub.data.abstract,
+  summary: pub.data.summary,
+  topic: pub.data.topic,
+  methods: pub.data.methods,
+  featured: pub.data.featured,
+  image: pub.data.image,
+  url_pdf: pub.data.url_pdf,
+  url_code: pub.data.url_code,
+  url_dataset: pub.data.url_dataset,
+}));
+---
+
+<PageLayout title="Publications" description="Peer-reviewed publications by Ivo Steimanis">
+  <h1 class="text-3xl font-bold text-gray-900 dark:text-white mb-2">Publications</h1>
+  <p class="text-gray-600 dark:text-gray-400 mb-8">
+    Peer-reviewed journal articles. Click on a topic to filter, or expand abstracts inline.
+  </p>
+
+  <PublicationList publications={publicationsData} client:load />
+</PageLayout>

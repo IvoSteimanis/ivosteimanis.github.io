@@ -1,0 +1,30 @@
+---
+title: "Are the Pacific Islands doomed to sink? The role of the media"
+subtitle: ""
+summary: ""
+authors: ["Ivo Steimanis"]
+tags: ["sealevel rise", "migration"]
+date: 2019-11-06
+image: "/images/blog/SLR/featured.jpg"
+---
+When I first started skimming the internet about Solomon Islands, I got the impression that this state will not exist much longer in the future. So I was very happy to have the opportunity to do research for my PhD there and for my own, in-depth view on these issues!
+In mainstream media rising sea-level has become almost synonymous to climate change and global warming. The media is portraying the image of a modern day Atlantis and headlines (see figure below) are pushing the angle towards vanishing islands due to rising sea-levels.
+
+{{< figure src="/img/news.jpg" title="Common news headlines for searching 'pacific islands +sea level rise'" numbered="true" >}}
+
+The trigger for most of the above headlines and also a lot of controversy in the scientific community, was the study by Albert et al. from 2016. In this study the authors offer evidence that five Pacific islands were lost to the sea. However, the influence of climate change on these results got exaggerated by the media, as the author himself later admits. In his view, the main take-away message from the study is that "... these observations from the Solomons are a warning of things to come irrespective of if climate change alone caused it or a range of factors". When reading the article by Albert et al. it becomes clear that these five islands were lost because of a combination of multiple factors; rising sea-level, wave exposure and probably also tectonic activity, and not necessarily attributed to climate change alone. Additionally, it seems that the sampling of islands is rather selective and not representative for Solomon Islands. A recent study by Kench et al (2018, see also by Mann & Westphal, 2014) present findings of shoreline change in all 101 islands of Tuvalu over the past four decades using the same methodology as Albert et al., but undoubtedly a more representative sample. They find that three quarters of Tuvalu's islands have increased in size, yielding a net gain in land mass of over 70 hectare, which is nearly three percent of the total land mass of Tuvalu. Their results challenge the widespread perceptions of island loss and highlight the importance for alternative, local level adaptation strategies that embrace heterogeneity of atoll islands and their dynamics.
+
+The exacerbated representation of scientific findings as done in many news articles, might lead to two important problems. Firstly, trust in science could be undermined when readers find out later that the overstated results were not true. Most likely, they will not blame the journalist who wrote about the issue, but rather the author of the research paper and thereby lose faith in science itself. Scientists, especially in a domain with a lot of uncertainty and importance such as the impacts of climate change, should put more effort into carefully communicating their results to the public.
+
+The second concern is with the people living on low-lying pacific islands. In times, where internet is available even on the most remote atoll islands, access to online news is widespread. This is one channel people use to get new information about climatic changes in Solomon Islands.  People use these information to form their own expectations and perceptions about climate change. Based on my experience from a low-lying atoll formation, Reef Islands, in Solomon Islands, it seems that many people expect the worst-case scenario of inundation in the near future. They often use a "victim" narrative to explain their dependence on outsiders, such as NGOs, to help them with the consequences of climate change. This is very problematic, as climate change becomes the scapegoat for nearly every problem related to the environment and leads often to inaction. This causes a self-amplifying cycle, where people are unwilling to make investments or take actions and thereby increase their dependence on outsiders.
+Thus, researchers, journalists and organizations should be careful in the way they craft and communicate messages about climate change. Spreading doomsday scenarios may affect atoll states at a larger scale by increasing dependence on the international community and hindering institutional investments into "atoll futures".
+
+This is not to say that people should not have access to better information about climate change impacts, however it is important to also deliver positive, empowering messages that encourage investments local level adaptation, continued cooperation and responsible stewardship of natural resources. After all, people have been living on these islands for thousands of years. A sea level rise of a few centimeters is unlikely to make all these islands inhabitable in the near future. However, life on these islands will become more difficult. Even more so if communities do not invest in adaption strategies.
+### References
+
+
+- Albert S., Leon J. X., Grinham A. R., Church J. A., Gibbes B. R. & Woodroffe C. D. (2016) Interactions between sea-level rise and wave exposure on reef island dynamics in the Solomon Islands. Environmental Research Letters 11: 054011
+
+- Kench P. S., Ford M. R. & Owen S. D. (2018) Patterns of island change and persistence offer alternate adaptation pathways for atoll nations. Nature Communications 9: 605
+
+- Mann T. & Westphal H. (2014) Assessing Long-Term Changes in the Beach Width of Reef Islands Based on Temporally Fragmented Remote Sensing Data. Remote Sensing 6: 6961-6987

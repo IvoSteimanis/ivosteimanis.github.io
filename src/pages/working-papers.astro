@@ -1,0 +1,65 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import MethodBadge from '../components/MethodBadge.astro';
+import { getCollection } from 'astro:content';
+
+const allWPs = await getCollection('working-papers');
+
+function statusPriority(status: string | undefined): number {
+  if (!status) return 3;
+  if (status.startsWith('R&R')) return 0;
+  if (status.startsWith('Under Review')) return 1;
+  if (status.startsWith('Submitted')) return 2;
+  return 3;
+}
+
+const sorted = allWPs.sort((a, b) => {
+  const pDiff = statusPriority(a.data.status) - statusPriority(b.data.status);
+  if (pDiff !== 0) return pDiff;
+  return b.data.date.getTime() - a.data.date.getTime();
+});
+
+function highlightAuthor(name: string): string {
+  return name === 'Ivo Steimanis'
+    ? `<strong class="underline">${name}</strong>`
+    : name;
+}
+---
+
+<PageLayout title="Working Papers" description="Work in progress by Ivo Steimanis">
+  <h1 class="text-3xl font-bold text-gray-900 dark:text-white mb-2">Working Papers</h1>
+  <p class="text-gray-600 dark:text-gray-400 mb-8">Work in progress and pre-prints.</p>
+
+  <div class="space-y-4">
+    {sorted.map((wp) => (
+      <article class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
+        <h2 class="font-semibold text-gray-900 dark:text-white mb-1 leading-snug">
+          {wp.data.title}
+        </h2>
+        <p class="text-sm text-gray-500 dark:text-gray-400 mb-2" set:html={wp.data.authors.map(highlightAuthor).join(', ')} />
+
+        <div class="flex items-center flex-wrap gap-2 mb-2">
+          {wp.data.status && (
+            <span class="text-xs px-2 py-0.5 rounded-full bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-300 font-medium">
+              {wp.data.status}
+            </span>
+          )}
+          {wp.data.methods.map((m) => (
+            <MethodBadge method={m} />
+          ))}
+        </div>
+
+        {(wp.data.abstract || wp.data.summary) && (
+          <details class="mt-2">
+            <summary class="text-sm text-primary-600 dark:text-primary-400 cursor-pointer hover:underline">
+              Show abstract
+            </summary>
+            <p class="mt-2 p-3 rounded-md bg-gray-50 dark:bg-gray-800 text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+              {wp.data.abstract || wp.data.summary}
+            </p>
+          </details>
+        )}
+      </article>
+    ))}
+  </div>
+</PageLayout>

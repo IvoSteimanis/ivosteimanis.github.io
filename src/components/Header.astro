@@ -1,0 +1,78 @@
+---
+import DarkModeToggle from './DarkModeToggle.astro';
+import { siteConfig } from '../data/siteConfig';
+
+const navItems = [
+  { label: 'Home', href: '/' },
+  { label: 'Publications', href: '/publications' },
+  { label: 'Working Papers', href: '/working-papers' },
+  { label: 'Projects', href: '/projects' },
+  { label: 'CV', href: '/cv' },
+  { label: 'Contact', href: '/#contact' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="sticky top-0 z-50 bg-white/80 dark:bg-gray-950/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
+  <nav class="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
+    <a href="/" class="text-lg font-semibold font-serif text-gray-900 dark:text-white hover:no-underline">
+      {siteConfig.name}
+    </a>
+
+    <!-- Desktop nav -->
+    <div class="hidden md:flex items-center gap-1">
+      {navItems.map((item) => (
+        <a
+          href={item.href}
+          class:list={[
+            "px-3 py-2 rounded-md text-sm font-medium transition-colors hover:no-underline",
+            currentPath === item.href || (item.href !== '/' && currentPath.startsWith(item.href))
+              ? "text-primary-600 dark:text-primary-400 bg-primary-50 dark:bg-primary-900/20"
+              : "text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800",
+          ]}
+        >
+          {item.label}
+        </a>
+      ))}
+      <DarkModeToggle />
+    </div>
+
+    <!-- Mobile hamburger -->
+    <div class="flex items-center gap-2 md:hidden">
+      <DarkModeToggle />
+      <button id="mobile-menu-btn" class="p-2 rounded-md text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800" aria-label="Toggle menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div id="mobile-menu" class="hidden md:hidden border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950">
+    <div class="px-4 py-3 space-y-1">
+      {navItems.map((item) => (
+        <a
+          href={item.href}
+          class:list={[
+            "block px-3 py-2 rounded-md text-base font-medium hover:no-underline",
+            currentPath === item.href || (item.href !== '/' && currentPath.startsWith(item.href))
+              ? "text-primary-600 dark:text-primary-400 bg-primary-50 dark:bg-primary-900/20"
+              : "text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800",
+          ]}
+        >
+          {item.label}
+        </a>
+      ))}
+    </div>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  btn?.addEventListener('click', () => {
+    menu?.classList.toggle('hidden');
+  });
+</script>

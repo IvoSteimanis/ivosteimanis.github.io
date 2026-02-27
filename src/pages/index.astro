@@ -1,0 +1,27 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Hero from '../components/Hero.astro';
+import FeaturedPapers from '../components/FeaturedPapers.astro';
+import ContactSection from '../components/ContactSection.astro';
+import ResearchMap from '../components/ResearchMap';
+import { fieldSites } from '../data/fieldSites';
+---
+
+<PageLayout>
+  <Hero />
+
+  <FeaturedPapers />
+
+  <!-- Research Map - loaded client-only to avoid SSR issues with Leaflet -->
+  <section class="py-12">
+    <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-2">Research Locations</h2>
+    <p class="text-gray-600 dark:text-gray-400 mb-6">
+      Field sites across 12 countries where I conducted my research.
+    </p>
+    <div class="rounded-xl overflow-hidden border border-gray-200 dark:border-gray-800">
+      <ResearchMap sites={fieldSites} client:only="react" />
+    </div>
+  </section>
+
+  <ContactSection />
+</PageLayout>

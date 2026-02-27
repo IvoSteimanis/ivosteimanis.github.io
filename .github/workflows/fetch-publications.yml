@@ -1,0 +1,44 @@
+name: Fetch New Publications
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday at 6 AM UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch publications from OpenAlex
+        run: node scripts/fetch-publications.mjs
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet src/content/publications/ src/content/working-papers/ && echo "changed=false" >> "$GITHUB_OUTPUT" || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto-update-publications
+          commit-message: 'chore: auto-update publications and working papers from OpenAlex'
+          title: 'Auto-update publications & working papers from OpenAlex'
+          body: |
+            This PR was automatically created by the weekly OpenAlex fetch.
+            It may include new publications and/or working papers.
+            Please review the new entries before merging.
+          labels: automated

@@ -1,0 +1,85 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { siteConfig } from '../data/siteConfig';
+---
+
+<PageLayout title="CV" description="Curriculum Vitae of Ivo Steimanis">
+  <div class="flex items-center justify-between mb-8">
+    <h1 class="text-3xl font-bold text-gray-900 dark:text-white">Curriculum Vitae</h1>
+    <a
+      href="/resume.pdf"
+      target="_blank"
+      class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary-600 text-white text-sm font-medium hover:bg-primary-700 hover:no-underline transition-colors"
+    >
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+      </svg>
+      Download PDF
+    </a>
+  </div>
+
+  <!-- Education -->
+  <section class="mb-12">
+    <h2 class="text-xl font-semibold text-gray-900 dark:text-white mb-6 pb-2 border-b border-gray-200 dark:border-gray-800">
+      Education
+    </h2>
+    <div class="relative pl-8 border-l-2 border-primary-200 dark:border-primary-800 space-y-8">
+      {siteConfig.education.map((edu) => (
+        <div class="relative">
+          <div class="absolute -left-[2.45rem] top-1 w-4 h-4 rounded-full bg-primary-500 ring-4 ring-white dark:ring-gray-950"></div>
+          <div class="text-sm text-primary-600 dark:text-primary-400 font-medium mb-1">{edu.year}</div>
+          <div class="font-semibold text-gray-900 dark:text-white">{edu.degree}</div>
+          <div class="text-gray-600 dark:text-gray-400">{edu.institution}</div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Current Position -->
+  <section class="mb-12">
+    <h2 class="text-xl font-semibold text-gray-900 dark:text-white mb-6 pb-2 border-b border-gray-200 dark:border-gray-800">
+      Current Position
+    </h2>
+    <div class="relative pl-8 border-l-2 border-primary-200 dark:border-primary-800">
+      <div class="relative">
+        <div class="absolute -left-[2.45rem] top-1 w-4 h-4 rounded-full bg-primary-500 ring-4 ring-white dark:ring-gray-950"></div>
+        <div class="text-sm text-primary-600 dark:text-primary-400 font-medium mb-1">2019 – Present</div>
+        <div class="font-semibold text-gray-900 dark:text-white">{siteConfig.role}</div>
+        <div class="text-gray-600 dark:text-gray-400">
+          {siteConfig.organization}, {siteConfig.department}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Interests -->
+  <section class="mb-12">
+    <h2 class="text-xl font-semibold text-gray-900 dark:text-white mb-6 pb-2 border-b border-gray-200 dark:border-gray-800">
+      Research Interests
+    </h2>
+    <ul class="space-y-2">
+      {siteConfig.interests.map((interest) => (
+        <li class="flex items-start gap-2 text-gray-700 dark:text-gray-300">
+          <svg class="w-5 h-5 text-primary-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+          </svg>
+          {interest}
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <div class="text-center py-8">
+    <p class="text-gray-500 dark:text-gray-400 mb-4">For the full CV including publications, teaching, and grants:</p>
+    <a
+      href="/resume.pdf"
+      target="_blank"
+      class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary-600 text-white font-medium hover:bg-primary-700 hover:no-underline transition-colors"
+    >
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+      </svg>
+      Download Full CV (PDF)
+    </a>
+  </div>
+</PageLayout>

@@ -1,0 +1,39 @@
+---
+import SocialLinks from './SocialLinks.astro';
+import { siteConfig } from '../data/siteConfig';
+---
+
+<section class="py-12 sm:py-16">
+  <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8">
+    <!-- Avatar -->
+    <div class="shrink-0">
+      <img
+        src="/images/avatar.jpg"
+        alt={siteConfig.name}
+        class="w-40 h-40 sm:w-48 sm:h-48 rounded-full object-cover ring-4 ring-gray-100 dark:ring-gray-800"
+        loading="eager"
+      />
+    </div>
+
+    <!-- Bio -->
+    <div class="text-center sm:text-left">
+      <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-2">
+        {siteConfig.name}
+      </h1>
+      <p class="text-lg text-primary-600 dark:text-primary-400 font-medium mb-1">
+        {siteConfig.role}
+      </p>
+      <p class="text-gray-500 dark:text-gray-400 mb-4">
+        <a href={siteConfig.orgUrl} class="hover:text-primary-600 dark:hover:text-primary-400" target="_blank" rel="noopener">
+          {siteConfig.organization}
+        </a>
+      </p>
+      <div class="text-gray-700 dark:text-gray-300 leading-relaxed mb-6 max-w-2xl" set:html={siteConfig.bio} />
+
+      <div class="flex justify-center sm:justify-start mb-6">
+        <SocialLinks size="lg" />
+      </div>
+    </div>
+  </div>
+
+</section>

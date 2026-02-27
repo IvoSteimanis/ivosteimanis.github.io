@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+import MethodBadge from './MethodBadge.astro';
+
+const allPubs = await getCollection('publications');
+const featured = allPubs
+  .filter((p) => p.data.featured)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+{featured.length > 0 && (
+  <section class="py-12">
+    <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Featured Publications</h2>
+    <div class="grid gap-6">
+      {featured.map((pub) => {
+        const authorList = pub.data.authors.map((a) =>
+          a === 'Ivo Steimanis'
+            ? `<strong class="underline">${a}</strong>`
+            : a
+        ).join(', ');
+        return (
+          <a href={`/publications/${pub.id.replace(/\.md$/, '')}`} class="block group hover:no-underline">
+            <article class="p-5 rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 hover:border-primary-300 dark:hover:border-primary-700 transition-colors">
+              <div class="flex flex-col sm:flex-row gap-4">
+                {pub.data.image && (
+                  <img
+                    src={pub.data.image}
+                    alt=""
+                    class="w-full sm:w-32 h-24 sm:h-24 object-cover rounded-lg shrink-0"
+                    loading="lazy"
+                  />
+                )}
+                <div class="flex-1 min-w-0">
+                  <h3 class="font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 mb-1 leading-snug">
+                    {pub.data.title}
+                  </h3>
+                  <p class="text-sm text-gray-500 dark:text-gray-400 mb-2" set:html={authorList} />
+                  <div class="flex items-center flex-wrap gap-2">
+                    <span class="text-sm font-medium text-primary-600 dark:text-primary-400">
+                      {pub.data.publication_short || pub.data.publication}
+                    </span>
+                    <span class="text-sm text-gray-400">
+                      ({pub.data.date.getFullYear()})
+                    </span>
+                    {pub.data.methods.map((m) => (
+                      <MethodBadge method={m} />
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </article>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+)}

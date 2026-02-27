@@ -1,0 +1,13 @@
+---
+title: "Reducing strategic uncertainty increases group protection in collective risk social dilemmas"
+summary: ""
+authors: ["Ivo Steimanis", "Natalie Struwe", "Julian Benda", "Esther Blanco"]
+tags: ["cooperation", "collective risk social dilemma", "strategic uncertainty", "mitigation", "experiment"]
+date: 2022-10-07
+image: "/images/working-papers/insider_outsider/featured.jpg"
+topic: "Climate & Behavior"
+methods: ["Laboratory experiment"]
+status: "Submitted to Journal of the Association of Environmental and Resource Economists"
+abstract: "Collective risks such as climate change and biodiversity loss require cooperative solutions, yet individuals overwhelmingly choose sub-optimal individual protection. Both selfishness and strategic uncertainty - doubt about whether others will cooperate - serve as explanations for this behavior. We disentangle these barriers to cooperation in a pre-registered experiment (N=400) using a collective risk social dilemma where some individuals in a group depend on others for protection. Artificially removing strategic uncertainty from the decision environment increases collective protection from 11% to 48%, reduces resources wasted by 73%, and lowers within-group inequality by 76%. We demonstrate the policy implications by testing institutions specifically designed to alleviate (but not fully eliminate) strategic uncertainty through transfer payments in the spirit of payments for ecosystem services. These institutions foster collective protection, social welfare, and reduce inequality similarly as removing strategic uncertainty by design, pointing to their potential."
+---
+Collective risks such as climate change and biodiversity loss require cooperative solutions, yet individuals overwhelmingly choose sub-optimal individual protection. Both selfishness and strategic uncertainty - doubt about whether others will cooperate - serve as explanations for this behavior. We disentangle these barriers to cooperation in a pre-registered experiment (N=400) using a collective risk social dilemma where some individuals in a group depend on others for protection. Artificially removing strategic uncertainty from the decision environment increases collective protection from 11% to 48%, reduces resources wasted by 73%, and lowers within-group inequality by 76%. We demonstrate the policy implications by testing institutions specifically designed to alleviate (but not fully eliminate) strategic uncertainty through transfer payments in the spirit of payments for ecosystem services. These institutions foster collective protection, social welfare, and reduce inequality similarly as removing strategic uncertainty by design, pointing to their potential.
