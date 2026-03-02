@@ -1,6 +1,6 @@
 ---
-import PageLayout from '../layouts/PageLayout.astro';
-import ProjectCard from '../components/ProjectCard.astro';
+import PageLayout from '../../layouts/PageLayout.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
 import { getCollection } from 'astro:content';
 
 const allProjects = await getCollection('projects');
@@ -18,7 +18,7 @@ const sorted = allProjects.sort((a, b) => b.data.date.getTime() - a.data.date.ge
         summary={project.data.summary}
         image={project.data.image}
         tags={project.data.tags}
-        slug={project.id}
+        slug={project.id.replace(/\.md$/, '')}
       />
     ))}
   </div>

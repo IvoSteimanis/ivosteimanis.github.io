@@ -144,27 +144,56 @@ export default function ResearchMap({ sites }: Props) {
                       ))}
                     </div>
                   )}
-                  {site.papers.length > 0 && (
-                    <div style={{ marginTop: 8, borderTop: '1px solid #e5e7eb', paddingTop: 6 }}>
-                      <div style={{ fontSize: '0.7rem', fontWeight: 600, color: '#6b7280', marginBottom: 4, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                        Papers
-                      </div>
-                      <ul style={{ margin: 0, padding: 0, listStyle: 'none' }}>
-                        {site.papers.map((paper) => (
-                          <li key={paper.slug} style={{ marginBottom: 3 }}>
-                            <a
-                              href={paper.type === 'publication' ? `/publications/${paper.slug}` : '/working-papers'}
-                              style={{ fontSize: '0.75rem', color: '#2563eb', textDecoration: 'none', lineHeight: 1.35, display: 'block' }}
-                              onMouseOver={(e) => (e.currentTarget.style.textDecoration = 'underline')}
-                              onMouseOut={(e) => (e.currentTarget.style.textDecoration = 'none')}
-                            >
-                              {paper.title}
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
+                  {(() => {
+                    const publications = site.papers.filter((p) => p.type === 'publication');
+                    const workingPapers = site.papers.filter((p) => p.type === 'working-paper');
+                    return (
+                      <>
+                        {publications.length > 0 && (
+                          <div style={{ marginTop: 8, borderTop: '1px solid #e5e7eb', paddingTop: 6 }}>
+                            <div style={{ fontSize: '0.7rem', fontWeight: 600, color: '#6b7280', marginBottom: 4, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                              Publications
+                            </div>
+                            <ul style={{ margin: 0, padding: 0, listStyle: 'none' }}>
+                              {publications.map((paper) => (
+                                <li key={paper.slug} style={{ marginBottom: 3 }}>
+                                  <a
+                                    href={`/publications/${paper.slug}`}
+                                    style={{ fontSize: '0.75rem', color: '#2563eb', textDecoration: 'none', lineHeight: 1.35, display: 'block' }}
+                                    onMouseOver={(e) => (e.currentTarget.style.textDecoration = 'underline')}
+                                    onMouseOut={(e) => (e.currentTarget.style.textDecoration = 'none')}
+                                  >
+                                    {paper.title}
+                                  </a>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                        {workingPapers.length > 0 && (
+                          <div style={{ marginTop: 8, borderTop: '1px solid #e5e7eb', paddingTop: 6 }}>
+                            <div style={{ fontSize: '0.7rem', fontWeight: 600, color: '#6b7280', marginBottom: 4, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                              Working Papers
+                            </div>
+                            <ul style={{ margin: 0, padding: 0, listStyle: 'none' }}>
+                              {workingPapers.map((paper) => (
+                                <li key={paper.slug} style={{ marginBottom: 3 }}>
+                                  <a
+                                    href="/working-papers"
+                                    style={{ fontSize: '0.75rem', color: '#2563eb', textDecoration: 'none', lineHeight: 1.35, display: 'block' }}
+                                    onMouseOver={(e) => (e.currentTarget.style.textDecoration = 'underline')}
+                                    onMouseOut={(e) => (e.currentTarget.style.textDecoration = 'none')}
+                                  >
+                                    {paper.title}
+                                  </a>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                      </>
+                    );
+                  })()}
                 </div>
               </Popup>
             </CircleMarker>
