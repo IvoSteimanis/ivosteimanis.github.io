@@ -27,6 +27,14 @@ const pageDescription = description || `Academic website of ${siteConfig.name}, 
     <meta name="description" content={pageDescription} />
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" type="image/png" href="/images/icon.png" />
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3BZ3TT2PG9" is:inline></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-3BZ3TT2PG9');
+    </script>
     <title>{pageTitle}</title>
     <!-- Dark mode: prevent flash -->
     <script is:inline>
