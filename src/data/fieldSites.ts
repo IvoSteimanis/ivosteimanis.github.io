@@ -39,7 +39,7 @@ export const fieldSites: FieldSite[] = [
       { title: 'Prosociality as response to slow- and fast-onset climate hazards', slug: 'psb_cc', type: 'publication' },
       { title: 'Climate-related hazards increase risk aversion, place attachment and migration aspiration', slug: 'climate_movements', type: 'publication' },
       { title: 'Pitfalls of monetizing relational values in the context of climate change adaptation', slug: 'relational_values', type: 'publication' },
-      { title: 'Decision to stay in climate-risk areas: Cognitive biases and behavioral preferences in Coastal Bangladesh', slug: 'behavioral_barriers', type: 'working-paper' },
+      { title: 'Decision to stay in climate-risk areas: cognitive biases and preferences in coastal Bangladesh', slug: 'behavioral_barriers', type: 'publication' },
     ],
   },
   {
