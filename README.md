@@ -26,3 +26,4 @@ npm run build     # Production build to dist/
 ## License
 
 Content (publications, text, images) is copyright Ivo Steimanis. The site source code is available under the [MIT License](LICENSE).
+
