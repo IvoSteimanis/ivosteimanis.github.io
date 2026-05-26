@@ -11,6 +11,7 @@ featured: true
 url_pdf: "/papers/behavioral_barriers.pdf"
 url_code: "https://github.com/IvoSteimanis/barriers_adaptation"
 url_dataset: "https://github.com/IvoSteimanis/barriers_adaptation"
+image: "/images/publications/behavioral_barriers/featured.jpg"
 topic: "Climate & Behavior"
 methods: ["Survey"]
 ---
