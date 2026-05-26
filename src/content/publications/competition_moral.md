@@ -20,7 +20,7 @@ tags:
 url_code: "https://osf.io/r6anc"
 url_dataset: "https://osf.io/r6anc"
 image: "/images/publications/competition_moral/featured.jpg"
-featured: true
+featured: false
 topic: "Metascience"
 methods:
   - "Meta-analysis"
