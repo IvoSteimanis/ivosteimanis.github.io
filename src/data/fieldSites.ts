@@ -64,7 +64,7 @@ export const fieldSites: FieldSite[] = [
     papers: [
       { title: 'Procedural fairness and nepotism among local traditional and democratic leaders in rural Namibia', slug: 'leadership', type: 'publication' },
       { title: 'When female leaders believe that men make better leaders', slug: 'leadership_norms', type: 'publication' },
-      { title: 'The Appearance of Democracy: How Conditional Payments Reshape Behavior Among Local Leaders', slug: 'paying_for_democracy', type: 'working-paper' },
+      { title: 'The appearance of democracy: How conditional payments reshape behavior among local leaders', slug: 'paying_for_democracy', type: 'publication' },
       { title: 'Can experiential learning enhance perceived behavioral control for climate adaptation?', slug: 'experiential_learning', type: 'working-paper' },
     ],
   },
@@ -87,7 +87,7 @@ export const fieldSites: FieldSite[] = [
     description: 'Impact of terminated PES schemes on agroforestry adoption',
     projects: ['IMPACTED'],
     papers: [
-      { title: 'Terminated Carbon Project in Mozambique underperforms with emission reductions, but generates benefits for local communities', slug: 'mozambique_pes', type: 'working-paper' },
+      { title: 'A terminated REDD+ project in Mozambique: Mitigation underperformance, lasting local benefits', slug: 'mozambique_pes', type: 'publication' },
     ],
   },
   {
