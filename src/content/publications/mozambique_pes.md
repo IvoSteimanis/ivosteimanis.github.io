@@ -9,8 +9,6 @@ abstract: "This study evaluates the long-term performance of the Sofala Carbon C
 tags: ["climate mitigation", "voluntary carbon market", "payments for ecosystem services", "agroforestry", "deforestation", "development", "environmental motivations and agency"]
 featured: true
 url_pdf: "/papers/mozambique_pes.pdf"
-url_code: "https://doi.org/10.5281/zenodo.21629264"
-url_dataset: "https://doi.org/10.5281/zenodo.21629264"
 image: "/images/publications/mozambique_pes/featured.jpg"
 topic: "PES"
 methods: ["Quasi-experimental", "Remote sensing", "Survey"]
