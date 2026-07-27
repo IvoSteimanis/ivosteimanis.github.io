@@ -9,6 +9,8 @@ abstract: "Democratic governance of shared natural resources is increasingly pro
 tags: ["local governance", "community-based natural resource management", "conditional payments", "economic experiment", "democracy"]
 featured: false
 url_pdf: "/papers/paying_for_democracy.pdf"
+url_code: "https://doi.org/10.5281/zenodo.21628024"
+url_dataset: "https://doi.org/10.5281/zenodo.21628024"
 image: "/images/publications/paying_for_democracy/featured.jpg"
 topic: "Leadership"
 methods: ["Lab-in-field", "Field experiment"]
